@@ -1,0 +1,21 @@
+Date: 13/12/2025 
+================
+1. Downloaded the new ci4 Project from the link https://www.codeigniter.com/download.
+2. I started the WAMP server.
+3. I moved the index.php and .htacess from the public folder to the root directory.
+4. I changed the end file name to .env
+5. Uncommented the CI_ENVIRONMENT = production to CI_ENVIRONMENT = development
+6. Added a code for the auto route in the Routes.php ($routes->setAutoRoute(true);)
+7. Changed the require FCPATH . '../app/Config/Paths.php'; to require FCPATH . 'app/Config/Paths.php';
+
+Following step is very easy and clear to add the existing folder to the newly created repository and to show the same
+in the GitHub Desktop ---->
+A.  Open the command prompt with the Project which you created and then ->
+    1.  C:\wamp64\www\myPHP>git init
+    2.  C:\wamp64\www\myPHP>git add .
+    3.  C:\wamp64\www\myPHP>git commit -m "Fresh CI4 Setup"
+    4.  C:\wamp64\www\myPHP>git remote add origin https://github.com/Debashish9860/myPHP.git
+    5.  C:\wamp64\www\myPHP>git push -u origin master
+B.  Now to open the repository in the GitHub Desktop ->
+    1.  Add -> Existing Repository -> Put the local path of the Project
+    2.  Then you can see everything.
