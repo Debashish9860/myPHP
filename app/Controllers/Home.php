@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('simpleView');
     }
+    
+    public function contact(): string
+    {
+        return view('contactView');
+    }
 }
