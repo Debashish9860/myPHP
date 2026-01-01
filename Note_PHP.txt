@@ -19,3 +19,13 @@ A.  Open the command prompt with the Project which you created and then ->
 B.  Now to open the repository in the GitHub Desktop ->
     1.  Add -> Existing Repository -> Put the local path of the Project
     2.  Then you can see everything.
+
+
+
+Date: 01/01/2025 
+================
+1. Learned how to write the simple route (for example get and post routes)
+2. Not used the database
+3. Used static data for authentications in post route.
+4. Made a seperate controllern with name "AuthController" which extends "BaseController"
+5. Wrote routes in Routes.php file.

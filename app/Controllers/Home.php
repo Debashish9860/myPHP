@@ -13,4 +13,8 @@ class Home extends BaseController
     {
         return view('contactView');
     }
+
+    public function login(): string{
+        return view('login');
+    }
 }
