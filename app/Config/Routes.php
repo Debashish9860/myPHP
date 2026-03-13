@@ -12,5 +12,7 @@ use CodeIgniter\Router\RouteCollection;
 
 
 $routes->get("/", "AuthController::index");
-$routes->post("loginCheck", "AuthController::login");
+$routes->get("register", "AuthController::register");
+$routes->post("register-user", "AuthController::storeUser");
 $routes->get("dashboard", "AuthController::dashboard");
+$routes->get("contact", "AuthController::contact");
